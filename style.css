@@ -99,15 +99,28 @@ nav a {
 }
 
 @media screen and (max-width: 767px) {
+    .conteudo {
+        width: 90%; 
+        margin: 0 auto; 
+        padding: 20px; 
+        font-size: 18px; 
+        overflow-y: auto; 
+        max-height: 70vh; 
+    }
+    .foto-perfil img {
+        width: 200px; 
+        height: 200px;
+        margin-top: 30px; 
+    }
+    .icon-container {
+        margin-top: 20px; 
+    }
+    .icon {
+        font-size: 1.5em; 
+        margin: 0 8px; 
+    }
     header {
         text-align: center; 
     }
-    nav {
-        display: none; 
-    }
-
-    .menu-icon {
-        display: block; 
-        
-    }
+    
 }
