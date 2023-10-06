@@ -1,0 +1,113 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color:white; 
+    padding: 20px;
+    font-style:inherit;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.foto-perfil img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    margin: 0 auto; 
+    display: block; 
+    margin-top: 100px;
+}
+
+.icon-container {
+    text-align: center; 
+}
+
+.icon {
+    font-size: 2em; 
+    color:#0073e6; 
+    margin: 0 10px; 
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    text-decoration: none;
+    color: black; 
+    background-color:dimgray; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    background-color:dimgray; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    font-size: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        text-align: center; 
+    }
+    nav {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: block; 
+        
+    }
+}

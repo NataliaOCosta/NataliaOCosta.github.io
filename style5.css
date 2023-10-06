@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(img/azul-raia-de-luz_1017-3392.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+}
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color:whitesmoke;
+    padding: 20px;
+    font-style:inherit;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+h1 {
+    
+        text-align: center;
+        font-style: italic;
+        color: aliceblue;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    background-color:dimgray; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    font-size: 20px;
+    align-items: center;
+}
+
+
+button[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #0055b3;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+}
+
+
+#meu-formulario {
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 767px) {
+    #meu-formulario {
+        max-width: 400px; 
+        margin: 0 auto;
+    }
+    .campo {
+        width: 100%; 
+        margin-right: 0;
+    }
+}
+
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo input[type="email"] {
+    width: 89%; 
+}
+
+.campo textarea {
+    width: 89%;
+}
+
+fieldset {
+    border: 0;
+}

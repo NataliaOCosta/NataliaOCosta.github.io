@@ -1,0 +1,122 @@
+body {
+    background-image: url(img/azul-raia-de-luz_1017-3392.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    background-color:dimgray; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    font-size: 20px;
+    align-items: center;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    text-align: justify;
+    color:whitesmoke;
+    padding: 20px;
+    font-style:inherit;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.imagem img {
+    width: auto;
+    height: auto;
+    margin-right: 10px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.button {
+    text-decoration: none;
+    color: black; 
+    background-color: lightskyblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+.button:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+    nav {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: block;
+
+    }
+
+    .conteudo {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+    .imagem img {
+        max-width: 100%; 
+        height: auto;
+    }
+    .button {
+        text-align: center; 
+    }
+
+}
+
