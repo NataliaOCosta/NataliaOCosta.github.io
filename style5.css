@@ -92,17 +92,27 @@ footer {
     margin: 0 auto; 
 }
 
+
 @media screen and (max-width: 767px) {
-    #meu-formulario {
-        max-width: 400px; 
+
+    
+    .conteudo {
+        font-size: 16px;
+    }
+
+    .foto-perfil img {
+        width: 200px; 
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    form#meu-formulario {
+        max-width: 80%;
         margin: 0 auto;
     }
-    .campo {
-        width: 100%; 
-        margin-right: 0;
-    }
-}
 
+
+}
 
 
 .campo label {
